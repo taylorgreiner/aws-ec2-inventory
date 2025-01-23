@@ -1,10 +1,16 @@
 # aws-ec2-inventory
-An app to grab EC2 instance sizing and volume sizing
+A bash script to grab EC2 instance sizing and volume sizing
 
 ## dependencies
 aws-cli\
 jq\
 bc
+
+## How to run
+```
+chmod +x aws-ec2-inventory.sh\
+./aws-ec2-inventory.sh
+```
 
 ## output
 Instance ID,Instance Type,vCPUs,Memory (GiB),Disk Count,Total Storage (GB)\
