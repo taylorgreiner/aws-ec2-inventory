@@ -8,7 +8,7 @@ bc
 
 ## How to run
 ```
-chmod +x aws-ec2-inventory.sh\
+chmod +x aws-ec2-inventory.sh
 ./aws-ec2-inventory.sh
 ```
 
