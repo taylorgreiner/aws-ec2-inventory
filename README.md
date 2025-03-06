@@ -8,6 +8,7 @@ bc
 
 ## How to run
 ```
+sudo yum bc
 chmod +x aws-ec2-inventory.sh
 ./aws-ec2-inventory.sh
 ```
